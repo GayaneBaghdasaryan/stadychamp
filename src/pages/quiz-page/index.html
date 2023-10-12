@@ -7,5 +7,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Marko+One&family=Roboto:ital,wght@1,100&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <title>login</title>
+    <title>quiz</title>
 </head>
+<body>
+    <div class="quiz-table">
+        <div class="results">
+            <div class="score-results"> Score 1/10</div>
+            <div class="quation-number">Quation 1/5</div>
+        </div>
+        <div class="question-frame"><p>Where in the world tallest building located</p></div>
+        <div class="variants-frame">
+            <div class="variants" onclick="checkAnswer(this)">Africa</div>
+            <div class="variants" onclick="checkAnswer(this)">New York</div>
+            <div class="variants" onclick="checkAnswer(this)">Italy</div>
+            <div class="variants" onclick="checkAnswer(this)">Dubai</div>
+        </div>
+    </div>
+    <div class="result-table">
+    <div class="result-card">
+        <div class="result-frame">
+            <div class="score"> Score 1/10</div>
+        </div>
+        <button class="result-table-btn" onclick="backToTopic()">Go back topics</button>
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>

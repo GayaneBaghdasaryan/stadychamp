@@ -10,3 +10,6 @@ function openLogOut() {
 function logout() {
     window.location.href = "../login-page/index.html";
 }
+function openQuiz() {
+    window.location.href = "../quiz-page/index.html";
+}
