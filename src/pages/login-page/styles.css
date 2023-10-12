@@ -1,0 +1,106 @@
+.container{
+    width: 401px;
+    height: 497px;
+    border-radius: 10%;
+    background-color: rgba(58, 133, 138, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.header {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_name{
+   
+    margin-bottom: 20px;
+    transform: translateX(117px);
+}
+.for_singup{
+    display: contents;
+}
+h1{
+    font-family: 'Marko One', serif;
+    font-size: 80px;
+    color: rgba(8, 65, 89, 1);
+}
+h3{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 100;
+}
+.fill_login{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 82%;
+}
+.email {
+    width: 321px;
+    height: 60px;
+    background-color: rgba(217, 217, 217, 0.47);
+    border-radius:34px;
+    border: none;
+    outline: none;
+    transition: .3s  ;
+    /* font-family: 'Padauk', sans-serif; */
+    font-size: 24px;
+    padding-left: 25px;
+}
+.password {
+    width: 321px;
+    height: 60px;
+    background-color: rgba(217, 217, 217, 0.47);
+    border-radius:34px;
+    border: none;
+    outline: none;
+    transition: .3s;
+    /* font-family: 'Padauk', sans-serif; */
+    font-size: 24px;
+    padding-left: 25px;
+}
+.login_button{
+    width: 184px;
+    height: 49px;
+    font-size: 35px;
+    background-color: #eeeeee00;
+    border-radius: 20px;
+    border: none;
+    color:rgba(63, 47, 64, 1);
+}
+.login_button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(33, 80, 77, 0.824);
+  }
+.bottom_line{
+    width: 340px;
+    background-color:rgba(32, 16, 7, 0.895);
+    height: 6px;
+    border-radius: 20px;
+}
+.sind_up_button{
+    width: 184px;
+    height: 49px;
+    font-size: 35px;
+    background-color: #eeeeee00;
+    border-radius: 20px;
+    border: none;
+    color:rgba(63, 47, 64, 1);
+}
+.sind_up_button:hover{
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(33, 80, 77, 0.824);
+}
+.wrapper{
+     display: flex;
+    width: 52%;
+    justify-content: center;
+    transform: translate(0, 40px);
+}
+body{
+    display: flex;
+}

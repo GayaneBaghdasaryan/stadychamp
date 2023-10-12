@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marko+One&family=Roboto:ital,wght@1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>login</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header_name">
+            <img src="logo.jpg" />
+            <h1>StudyChamp</h1>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="container">
+            <div class="fill_login">
+                <form id="loginform">
+                    <h3>E-mail</h3>
+                    <div>
+                        <input type="text" placeholder="e-mail" class="email" />
+                    </div>
+                    <h3>password</h3>
+                    <div>
+                        <input type="password" placeholder="password" class="password" />
+                    </div>
+                </form>
+            </div>
+            <div class="login">
+                <button type="submit" class="login_button" onclick="auth()">Log in</button>
+            </div>
+            <div class="for_singup">
+                <div class="bottom_line"></div>
+                <button class="sind_up_button" onclick="openSingUp()">Sing up</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Marko+One&family=Padauk&family=Roboto:ital,wght@1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>home-page</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="bar-logo"> <img src="bar-logo.jpg"></div>
+        <div class="navigation-bar">
+            <div class="naviagtion-item">Home</div>
+            <div class="naviagtion-item">Cards</div>
+            <div class="naviagtion-item">New</div>
+        </div>
+        <div class="user_icon">
+            <button class="nav_button" onclick="openLogOut()"></button>
+            <div class="user_icon_name">UserName</div>
+            <div class="logout-dropdown" id="logoutDropdown">
+                <div class="logout-dropdown-text">
+                    <div>
+                        UserName
+                    </div>
+                    <div>
+                        user@email.com
+                    </div>
+                </div>
+                <div class="logout-dropdown-line"></div>
+
+                <a href="#" onclick="logout()">Logout</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="content">
+        <div class="title">
+            <div class="title_name">StudyChamp</div>
+            <div class="title_content">Learn and explore everyday</div>
+        </div>
+        <div class="section">
+            <div class="topics">
+                <div class="topic">
+                    <h2>Topic Name</h2>
+                </div>
+                <div class="topic" onclick="openSubject()">
+                    <h2>History</h2>
+                </div>
+                <div class="topic" onclick="openSubject()">
+                    <h2>Music</h2>
+                </div>
+                <div class="topic" onclick="openSubject()">
+                    <h2>Art</h2>
+                </div>
+                <div class="topic" onclick="openSubject()">
+                    <h2>Medican</h2>
+                </div>
+                <div class="topic" onclick="openSubject()">
+                    <h2>Sience</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
